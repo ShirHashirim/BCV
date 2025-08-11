@@ -1,1 +1,7 @@
 node_modules
+treemd.ps1
+tree_rebuild.bat
+directory_paths.md
+directory_tree.md
+test-js.js
+test*
