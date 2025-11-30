@@ -1,561 +1,297 @@
-1Chr	דה''א
-1Chr	דהי''א
-1Chr	1C
-1Chr	1Ch
-1Chr	1Chr
-1Chr	1Chronicles
-1Chr	Divrei HaYamim A
-1Chr	Divrei HaYamim Alef
-1Chr	Divrei Hayamim Aleph
-1Chr	דברי הימים א
 1Chr	דברי הימים א'
 1Chr	דברי הימים א’
-1Chr	דהא
-1Chr	דהיא
-1Cor	1Cor
-1Cor	אגרת פולוס הראשונה אל-הקורי
+1Chr	דברי הימים א
+1Chr	1Chr
 1Cor	אגרת פולוס הראשונה אל-הקורנתים
+1Cor	אגרת פולוס הראשונה אל-הקורי
 1Cor	האיגרת הראשונה אל הקורינתים
 1Cor	הראשונה אל הקורינתים
 1Cor	הראשונה אל הקורנתים
-1Esd	1Esd
+1Cor	1Cor
 1Esd	חזון עזרא
-1John	1John
-1John	אגרתו הראשונה של יוחנן השלי
+1Esd	1Esd
 1John	אגרתו הראשונה של יוחנן השליח
+1John	אגרתו הראשונה של יוחנן השלי
 1John	איגרת יוחנן הראשונה
 1John	הראשונה יוחנן
-1Kgs	מ''א
-1Kgs	מל''א
-1Kgs	1K
-1Kgs	1Kg
-1Kgs	1Kgs
-1Kgs	1Kings
-1Kgs	Melachim A
-1Kgs	Melachim Alef
-1Kgs	Melachim Aleph
-1Kgs	Melakhim A
-1Kgs	Melakhim Alef
-1Kgs	Melakhim Aleph
-1Kgs	מא
-1Kgs	מלא
-1Kgs	מלכים א
+1John	1John
 1Kgs	מלכים א'
 1Kgs	מלכים א’
-1Macc	1Macc
+1Kgs	מלכים א
+1Kgs	1Kgs
+1Macc	ספר מקבים א'
+1Macc	ספר מקבים א’
 1Macc	חשמונאים א'
 1Macc	חשמונאים א’
 1Macc	מקבים א
-1Macc	ספר מקבים א'
-1Macc	ספר מקבים א’
-1Pet	1Pet
-1Pet	אגרתו הראשונה של פטרוס השלי
+1Macc	1Macc
 1Pet	אגרתו הראשונה של פטרוס השליח
+1Pet	אגרתו הראשונה של פטרוס השלי
 1Pet	איגרת פטרוס הראשונה
 1Pet	הראשונה פטרוס
-1Sam	ש''א
-1Sam	שמ''א
-1Sam	1 Samuel
-1Sam	1S
-1Sam	1Sam
-1Sam	Samuel A
-1Sam	Schmuel 1
-1Sam	Schmuel A
-1Sam	Shamuel 1
-1Sam	Shamuel A
-1Sam	Shmeil 1
-1Sam	Shmeil A
-1Sam	Shmu'el Alef
-1Sam	Shmu'el Aleph
-1Sam	Shmuel 1
-1Sam	Shmuel A
-1Sam	Shmuel Alef
-1Sam	Shmuel Aleph
-1Sam	שא
-1Sam	שמא
-1Sam	שמואל א
+1Pet	1Pet
 1Sam	שמואל א'
 1Sam	שמואל א’
-1Thess	1Thess
-1Thess	אגרת פולוס הראשונה אל-התסלו
+1Sam	שמואל א
+1Sam	1Sam
 1Thess	אגרת פולוס הראשונה אל-התסלוניקים
 1Thess	האיגרת הראשונה אל התסלוניקים
+1Thess	אגרת פולוס הראשונה אל-התסלו
 1Thess	הראשונה אל התסלוניקים
-1Tim	1Tim
-1Tim	אגרת פולוס הראשונה אל-טימות
+1Thess	1Thess
 1Tim	אגרת פולוס הראשונה אל-טימותיוס
+1Tim	אגרת פולוס הראשונה אל-טימות
 1Tim	האיגרת הראשונה אל טימותיוס
 1Tim	הראשונה אל טימותיאוס
 1Tim	הראשונה אל טימותיוס
-2Chr	דה''ב
-2Chr	דהי''ב
-2Chr	2C
-2Chr	2Ch
-2Chr	2Chr
-2Chr	2Chronicles
-2Chr	Divrei HaYamim B
-2Chr	Divrei HaYamim Bet
-2Chr	Divrei Hayamim Beit
-2Chr	דברי הימים ב
+1Tim	1Tim
 2Chr	דברי הימים ב'
 2Chr	דברי הימים ב’
-2Chr	דהב
-2Chr	דהיב
-2Cor	2Cor
-2Cor	אגרת פולוס השנייה אל-הקורינ
+2Chr	דברי הימים ב
+2Chr	2Chr
 2Cor	אגרת פולוס השנייה אל-הקורנתים
+2Cor	אגרת פולוס השנייה אל-הקורינ
 2Cor	האיגרת השנייה אל הקורינתים
 2Cor	השנייה אל הקורינתים
 2Cor	השנייה אל הקורנתים
-2Esd	2Esd
+2Cor	2Cor
 2Esd	עזרא החיצוני
-2John	2John
+2Esd	2Esd
 2John	אגרתו השנייה של יוחנן השליח
 2John	איגרת יוחנן השנייה
 2John	השנייה יוחנן
-2Kgs	מ''ב
-2Kgs	מל''ב
-2Kgs	2K
-2Kgs	2Kg
-2Kgs	2Kgs
-2Kgs	2Kings
-2Kgs	Melachim B
-2Kgs	Melachim Beit
-2Kgs	Melachim Bet
-2Kgs	Melakhim B
-2Kgs	Melakhim Beit
-2Kgs	Melakhim Bet
-2Kgs	מב
-2Kgs	מלב
-2Kgs	מלכים ב
+2John	2John
 2Kgs	מלכים ב'
 2Kgs	מלכים ב’
-2Macc	2Macc
+2Kgs	מלכים ב
+2Kgs	2Kgs
+2Macc	ספר מקבים ב'
+2Macc	ספר מקבים ב’
 2Macc	חשמונאים ב'
 2Macc	חשמונאים ב’
 2Macc	מקבים ב
-2Macc	ספר מקבים ב'
-2Macc	ספר מקבים ב’
-2Pet	2Pet
+2Macc	2Macc
 2Pet	אגרתו השנייה של פטרוס השליח
 2Pet	איגרת פטרוס השנייה
 2Pet	השנייה פטרוס
-2Sam	ש''ב
-2Sam	שמ''ב
-2Sam	2 Samuel
-2Sam	2S
-2Sam	2Sam
-2Sam	Samuel B
-2Sam	Schmuel 2
-2Sam	Schmuel B
-2Sam	Shamuel 2
-2Sam	Shamuel B
-2Sam	Shmeil 2
-2Sam	Shmeil B
-2Sam	Shmu'el Beit
-2Sam	Shmu'el Bet
-2Sam	Shmuel 2
-2Sam	Shmuel B
-2Sam	Shmuel Beit
-2Sam	Shmuel Bet
-2Sam	שב
-2Sam	שמב
-2Sam	שמואל ב
+2Pet	2Pet
 2Sam	שמואל ב'
 2Sam	שמואל ב’
-2Thess	2Thess
+2Sam	שמואל ב
+2Sam	2Sam
+2Thess	אגרת פולוס השנייה אל-התסלוניקים
 2Thess	אגרת פולוס השנייה אל-התסלונ
-2Thess	אגרתפולוס השנייה אל-התסלוניקים
 2Thess	האיגרת השנייה אל התסלוניקים
 2Thess	השנייה אל התסלוניקים
 2Thess	השנייה אל-התסלוניקים
-2Tim	2Tim
-2Tim	אגרת פולוס השנייה אל-טימותי
+2Thess	2Thess
 2Tim	אגרת פולוס השנייה אל-טימותיוס
+2Tim	אגרת פולוס השנייה אל-טימותי
 2Tim	האיגרת השנייה אל טימותיוס
 2Tim	השנייה אל טימותיאוס
 2Tim	השנייה אל טימותיוס
-3John	3John
-3John	אגרתו השלישית של יוחנן השלי
+2Tim	2Tim
 3John	אגרתו השלישית של יוחנן השליח
+3John	אגרתו השלישית של יוחנן השלי
 3John	איגרת יוחנן השלישית
 3John	השלישית יוחנן
-3Macc	3Macc
+3John	3John
+3Macc	ספר מקבים ג'
+3Macc	ספר מקבים ג’
 3Macc	חשמונאים ג'
 3Macc	חשמונאים ג’
 3Macc	מקבים ג
-3Macc	ספר מקבים ג'
-3Macc	ספר מקבים ג’
-4Macc	4Macc
+3Macc	3Macc
+4Macc	ספר מקבים ד'
+4Macc	ספר מקבים ד’
 4Macc	חשמונאים ד'
 4Macc	חשמונאים ד’
 4Macc	מקבים ד
-4Macc	ספר מקבים ד'
-4Macc	ספר מקבים ד’
-Acts	Acts
+4Macc	4Macc
 Acts	מעשי השליחים
-Amos	Am
+Acts	Acts
 Amos	Amos
-Amos	עמ
-Amos	עמ'
 Amos	עמוס
-Amos	עמ’
-Bar	Bar
-Bar	ברוך
 Bar	ספר ברוך
-Bel	Bel
+Bar	ברוך
+Bar	Bar
 Bel	בל והדרקון
 Bel	התנין בבבל
-Col	Col
-Col	אגרת פולוס השליח אל-הקולוסי
+Bel	Bel
 Col	אגרת פולוס השליח אל-הקולוסים
-Col	אל הקולוסים
+Col	אגרת פולוס השליח אל-הקולוסי
 Col	האיגרת אל הקולוסים
-Dan	Da
-Dan	Dan
-Dan	Daniel
-Dan	דנ
-Dan	דנ'
+Col	אל הקולוסים
+Col	Col
 Dan	דניאל
-Dan	דנ’
-Deut	D'varim
-Deut	De
-Deut	Deut
-Deut	Deuteronomy
-Deut	Devarim
-Deut	Dvarim
-Deut	דב
-Deut	דב'
-Deut	דברים
+Dan	Dan
 Deut	משנה תורה
-Eccl	Eccl
-Eccl	Ecclesiastes
-Eccl	Koheles
-Eccl	Kohelet
+Deut	דברים
+Deut	Deut
 Eccl	המקהיל
 Eccl	המרצה
-Eccl	קהל
-Eccl	קהל'
+Eccl	Eccl
 Eccl	קהלת
-Eccl	קהל’
-EpJer	EpJer
 EpJer	איגרת ירמיהו
-Eph	Eph
+EpJer	EpJer
 Eph	אגרת פולוס השליח אל האפסיים
 Eph	אגרת פולוס השליח אל-האפסים
-Eph	אל האפסים
 Eph	האיגרת אל האפסים
 Eph	השליח אל האפסיים
-Esth	Ester
-Esth	Esth
-Esth	Esther
-Esth	אסתר
+Eph	אל האפסים
+Eph	Eph
 Esth	אסתר, כולל פרקים גנוזים
-Esth	מגילת אסתר
-Exod	Ex
-Exod	Exod
-Exod	Exodus
-Exod	Sh'mos
-Exod	Shemot
-Exod	Shmos
-Exod	יציאה
+Esth	Esth
+Esth	אסתר
 Exod	יציאת מצרים
-Exod	שמ
-Exod	שמ'
+Exod	יציאה
+Exod	Exod
 Exod	שמות
-Ezek	Ezek
-Ezek	Ezekiel
-Ezek	Yechezkel
-Ezek	Yehezkel
-Ezek	יחזק
-Ezek	יחזק'
 Ezek	יחזקאל
-Ezek	יחזק’
+Ezek	Ezek
 Ezra	Ezra
-Ezra	עז
-Ezra	עז'
 Ezra	עזרא
-Ezra	עז’
-Gal	Gal
 Gal	אגרת פולוס השליח אל-הגלטים
-Gal	אל הגלטים
 Gal	האיגרת אל הגלטים
-Gen	B'reishis
-Gen	Bereshit
-Gen	Breshit
-Gen	Ge
-Gen	Gen
-Gen	Genesis
-Gen	בר
-Gen	בר'
-Gen	ברא
-Gen	בראש
-Gen	בראש'
-Gen	בראשית
+Gal	אל הגלטים
+Gal	Gal
 Gen	בראשית
 Gen	בריאה
-GkEsth	GkEsth
+Gen	Gen
 GkEsth	תוספות למגילת אסתר
-Hab	Chavakuk
-Hab	Hab
-Hab	Habakkuk
-Hab	Havakuk
-Hab	חב
-Hab	חב'
+GkEsth	GkEsth
 Hab	חבקוק
-Hab	חב’
-Hag	Chaggai
+Hab	Hab
 Hag	Hag
-Hag	Haggai
-Hag	חג
-Hag	חג'
 Hag	חגי
-Hag	חג’
-Heb	Heb
-Heb	אל העברים
-Heb	האגרת אל-העברים
 Heb	האיגרת אל העברים
 Heb	האיגרת אל-העברים
-Hos	Ho
-Hos	Hos
-Hos	Hosea
-Hos	Hoshe'a
-Hos	Hoshea
-Hos	הוש
-Hos	הוש'
+Heb	האגרת אל-העברים
+Heb	אל העברים
+Heb	Heb
 Hos	הושע
-Hos	הוש’
-Isa	Is
-Isa	Isa
-Isa	Isaiah
-Isa	Yeshayahu
-Isa	ישע
-Isa	ישע'
-Isa	ישעה
-Isa	ישעיה
+Hos	Hos
 Isa	ישעיהו
-Isa	ישע’
-Jas	Jas
-Jas	אגרת יעקב
+Isa	ישעיה
+Isa	ישעה
+Isa	Isa
 Jas	איגרת יעקב
+Jas	אגרת יעקב
 Jas	יעקב
-Jdt	Jdt
+Jas	Jas
 Jdt	יהודית
-Jer	Je
-Jer	Jer
-Jer	Jeremiah
-Jer	Yirmiyah
-Jer	Yirmiyahu
-Jer	ירמ
-Jer	ירמ'
-Jer	ירמיה
+Jdt	Jdt
 Jer	ירמיהו
-Jer	ירמ’
-Job	Eyeov
-Job	Iyov
-Job	Job
+Jer	ירמיה
+Jer	Jer
 Job	איוב
+Job	Job
 Joel	Joel
-Joel	Yo'el
-Joel	Yoel
 Joel	יואל
-John	John
 John	הבשורה על פי יוחנן
 John	הבשורה על-פי יוחנן
 John	יוחנן
+John	John
 Jonah	Jonah
-Jonah	Yonah
 Jonah	יונה
-Josh	Josh
-Josh	Joshua
-Josh	Yehoshua
-Josh	יהוש
-Josh	יהוש'
 Josh	יהושע
-Jude	Jude
-Jude	אגרת יהודה
+Josh	Josh
 Jude	איגרת יהודה
+Jude	אגרת יהודה
 Jude	יהודה
-Judg	Judg
-Judg	Judges
-Judg	Shoftim
-Judg	שופ
-Judg	שופ'
+Jude	Jude
 Judg	שופטים
-Lam	Eicha
-Lam	Eikhah
-Lam	La
-Lam	Lam
-Lam	Lamentations
-Lam	איכה
+Judg	Judg
 Lam	קינות
-Lev	Le
-Lev	Lev
-Lev	Leviticus
-Lev	Vayikra
-Lev	ויק
-Lev	ויק'
-Lev	ויקרא
+Lam	איכה
+Lam	Lam
 Lev	ספר הלוויים
-Luke	Luke
-Luke	הבשורה על פי לוקס
+Lev	ויקרא
+Lev	Lev
 Luke	הבשורה על-פי לוקאס
+Luke	הבשורה על פי לוקס
 Luke	הבשורה על-פי לוקס
+Luke	Luke
 Luke	לוקס
-Mal	Mal
-Mal	Malachi
-Mal	Malakhi
-Mal	מלאכ
-Mal	מלאכ'
 Mal	מלאכי
-Mal	מלאכ’
-Mark	Mark
+Mal	Mal
 Mark	הבשורה על פי מרקוס
 Mark	הבשורה על-פי מרקוס
 Mark	מרקוס
-Matt	Matt
+Mark	Mark
 Matt	הבשורה הקדושה על-פי מתי
-Matt	הבשורה לפי מתי
 Matt	הבשורה על פי מתי
 Matt	הבשורה על-פי מתי
+Matt	הבשורה לפי מתי
+Matt	Matt
 Matt	מתי
-Mic	Mi
-Mic	Mic
-Mic	Micah
-Mic	Micha
-Mic	Mikah
-Mic	מיכ
-Mic	מיכ'
 Mic	מיכה
-Mic	מיכ’
-Nah	Na
-Nah	Nachum
-Nah	Nah
-Nah	Nahum
-Nah	נח
-Nah	נח'
+Mic	Mic
 Nah	נחום
-Nah	נחם
-Nah	נח’
-Neh	Esth	Es
-Neh	Ne
-Neh	Nechemya
-Neh	Nechemyah
-Neh	Neh
-Neh	Nehemiah
-Neh	נחמ
-Neh	נחמ'
+Nah	Nah
 Neh	נחמיה
-Neh	נחמ’
-Num	Bamidbar
-Num	Nu
-Num	Num
-Num	Numbers
-Num	במ
-Num	במ'
+Neh	Neh
 Num	במדבר
 Num	מניין
 Num	ספירה
-Obad	Ob
-Obad	Obad
-Obad	Obadiah
-Obad	Ovadiah
-Obad	Ovadya
-Obad	עבדיה
-Obad	עוב
-Obad	עוב'
+Num	Num
 Obad	עובדיה
-Obad	עוב’
-Phil	Phil
-Phil	אגרת פולוס השליח אל-הפיליפי
+Obad	עבדיה
+Obad	Obad
 Phil	אגרת פולוס השליח אל-הפיליפיים
+Phil	אגרת פולוס השליח אל-הפיליפי
+Phil	האיגרת אל הפיליפים
 Phil	אל הפיליפיים
 Phil	אל הפיליפים
-Phil	האיגרת אל הפיליפים
-Phlm	Phlm
+Phil	Phil
 Phlm	אגרת פולוס אל-פילימון
-Phlm	אל פילימון
 Phlm	האיגרת אל פילימון
-PrAzar	PrAzar
-PrAzar	תפילת עזריה
+Phlm	אל פילימון
+Phlm	Phlm
 PrAzar	תפילת עזריה בתוך הכבשן
-PrMan	PrMan
+PrAzar	תפילת עזריה
+PrAzar	PrAzar
 PrMan	תפילת מנשה
-Prov	Mishlei
-Prov	Mishley
-Prov	Pr
-Prov	Prov
-Prov	Proverbs
-Prov	משל
-Prov	משל'
-Prov	משלי
-Prov	משלים
-Prov	משל’
+PrMan	PrMan
 Prov	פתגמים
-Ps	Ps
-Ps	Psalms
-Ps	Tehilim
-Ps	Tehillim
+Prov	משלים
+Prov	Prov
+Prov	משלי
 Ps	מזמורים
-Ps	תהיל
 Ps	תהילים
-Ps	תהל
-Ps	תהל'
-Ps	תהלים
-Ps	תהל’
-Rev	Rev
+Ps	Ps
+Rev	חזון יוחנן
 Rev	ההתגלות
 Rev	התגלות
-Rev	חזון יוחנן
-Rom	Rom
+Rev	Rev
 Rom	אגרת פולוס השליח אל-הרומיים
+Rom	האיגרת אל הרומאים
 Rom	אל הרומאים
 Rom	אל הרומיים
 Rom	אל הרומים
-Rom	האיגרת אל הרומאים
-Ruth	Ru
-Ruth	Rut
+Rom	Rom
 Ruth	Ruth
-Ruth	מגילת רות
 Ruth	רות
-SgThree	SgThree
 SgThree	שירת שלושת הנערים בכבשן
-Sir	Sir
+SgThree	SgThree
 Sir	משלי בן סירא
 Sir	משלי בן-סירא
 Sir	ספר בן סירא
-Song	שיה''ש
-Song	Shir HaShirim
-Song	So
-Song	Song
-Song	Songofsongs
-Song	Sos
-Song	שיהש
+Sir	Sir
 Song	שיר השירים
 Song	שירי שלמה
-Sus	Sus
+Song	Song
 Sus	שושנה
-Titus	Titus
+Sus	Sus
 Titus	אגרת פולוס אל-טיטוס
-Titus	אל טיטוס
 Titus	האיגרת אל טיטוס
-Tob	Tob
+Titus	אל טיטוס
+Titus	Titus
 Tob	טוביה
-Wis	Wis
+Tob	Tob
 Wis	חכמת שלמה
-Zech	Zech
-Zech	Zechariah
-Zech	Zecharya
-Zech	Zekharyah
-Zech	זכ
-Zech	זכ'
+Wis	Wis
 Zech	זכריה
-Zech	זכ’
-Zeph	Tzefanya
-Zeph	Tzephaniah
-Zeph	Zeph
-Zeph	Zephaniah
-Zeph	צפ
-Zeph	צפ'
+Zech	Zech
 Zeph	צפניה
-Zeph	צפ’
+Zeph	Zeph

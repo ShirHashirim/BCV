@@ -182,8 +182,7 @@ var bcv_regexps = class {
         osis: ["Ps"],
         testament: "oa",
         testament_books: { "Ps": "oa" },
-        regexp:
-      /(?:^|(?<=[^\p{L}]))((?:מזמורים|תהילים|תהלים|Ps))(?:(?=[\d\s.:,;\x1e\x1f&\(\)（）\[\]\/"'\*=~\-–—])|$)/giu
+        regexp: /(?:^|(?<=[^\p{L}]))((?:מזמורים|תהילים|Ps))(?:(?=[\d\s.:,;\x1e\x1f&\(\)（）\[\]\/"'\*=~\-–—])|$)/giu
       },
       {
         osis: ["PrAzar"],
