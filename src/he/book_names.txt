@@ -2,6 +2,10 @@
 1Chr	דברי הימים א’
 1Chr	דברי הימים א
 1Chr	1Chr
+1Chr	Chr1
+1Chr	ChrI
+1Chr	1 Chronicles
+1Chr	1 Divrei HaYamim
 1Cor	אגרת פולוס הראשונה אל-הקורנתים
 1Cor	אגרת פולוס הראשונה אל-הקורי
 1Cor	האיגרת הראשונה אל הקורינתים
@@ -19,6 +23,10 @@
 1Kgs	מלכים א’
 1Kgs	מלכים א
 1Kgs	1Kgs
+1Kgs	Kgs1
+1Kgs	KgsI
+1Kgs	1 Kings
+1Kgs	1 Melachim
 1Macc	ספר מקבים א'
 1Macc	ספר מקבים א’
 1Macc	חשמונאים א'
@@ -34,6 +42,10 @@
 1Sam	שמואל א’
 1Sam	שמואל א
 1Sam	1Sam
+1Sam	Sam1
+1Sam	SamI
+1Sam	1 Samuel
+1Sam	1 Shemuel
 1Thess	אגרת פולוס הראשונה אל-התסלוניקים
 1Thess	האיגרת הראשונה אל התסלוניקים
 1Thess	אגרת פולוס הראשונה אל-התסלו
@@ -49,6 +61,10 @@
 2Chr	דברי הימים ב’
 2Chr	דברי הימים ב
 2Chr	2Chr
+2Chr	Chr2
+2Chr	ChrII
+2Chr	2 Chronicles
+2Chr	2 Divrei HaYamim
 2Cor	אגרת פולוס השנייה אל-הקורנתים
 2Cor	אגרת פולוס השנייה אל-הקורינ
 2Cor	האיגרת השנייה אל הקורינתים
@@ -65,6 +81,10 @@
 2Kgs	מלכים ב’
 2Kgs	מלכים ב
 2Kgs	2Kgs
+2Kgs	KgsII
+2Kgs	Kgs2
+2Kgs	2 Kings
+2Kgs	2 Melachim
 2Macc	ספר מקבים ב'
 2Macc	ספר מקבים ב’
 2Macc	חשמונאים ב'
@@ -79,6 +99,10 @@
 2Sam	שמואל ב’
 2Sam	שמואל ב
 2Sam	2Sam
+2Sam	Sam2
+2Sam	SamII
+2Sam	2 Samuel
+2Sam	2 Shemuel
 2Thess	אגרת פולוס השנייה אל-התסלוניקים
 2Thess	אגרת פולוס השנייה אל-התסלונ
 2Thess	האיגרת השנייה אל התסלוניקים
@@ -125,9 +149,13 @@ Col	אל הקולוסים
 Col	Col
 Dan	דניאל
 Dan	Dan
+Dan	Daniel
 Deut	משנה תורה
 Deut	דברים
 Deut	Deut
+Deut	Deuteronomy
+Deut	Devarim
+Deut	De
 Eccl	המקהיל
 Eccl	המרצה
 Eccl	Eccl
@@ -142,13 +170,19 @@ Eph	אל האפסים
 Eph	Eph
 Esth	אסתר, כולל פרקים גנוזים
 Esth	Esth
+Esth	Esther
+Esth	Ester
 Esth	אסתר
 Exod	יציאת מצרים
 Exod	יציאה
 Exod	Exod
+Exod	Ex
+Exod	Shemot
 Exod	שמות
 Ezek	יחזקאל
 Ezek	Ezek
+Ezek	Ezekiel
+Ezek	Yechezkel
 Ezra	Ezra
 Ezra	עזרא
 Gal	אגרת פולוס השליח אל-הגלטים
@@ -158,12 +192,18 @@ Gal	Gal
 Gen	בראשית
 Gen	בריאה
 Gen	Gen
+Gen	Genesis
+Gen	Bereshit
 GkEsth	תוספות למגילת אסתר
 GkEsth	GkEsth
 Hab	חבקוק
 Hab	Hab
+Hab	Habakkuk
+Hab	Habhaqquq
 Hag	Hag
 Hag	חגי
+Hag	Haggai
+Hag	Haggay
 Heb	האיגרת אל העברים
 Heb	האיגרת אל-העברים
 Heb	האגרת אל-העברים
@@ -171,10 +211,14 @@ Heb	אל העברים
 Heb	Heb
 Hos	הושע
 Hos	Hos
+Hos	Hosea
+Hos	Hoshea
 Isa	ישעיהו
 Isa	ישעיה
 Isa	ישעה
 Isa	Isa
+Isa	Isaiah
+Isa	Yeshayahu
 Jas	איגרת יעקב
 Jas	אגרת יעקב
 Jas	יעקב
@@ -184,30 +228,44 @@ Jdt	Jdt
 Jer	ירמיהו
 Jer	ירמיה
 Jer	Jer
+Jer	Jeremiah
+Jer	Yirmiyahu
 Job	איוב
 Job	Job
+Job	Eyov
 Joel	Joel
 Joel	יואל
+Joel	Yoel
 John	הבשורה על פי יוחנן
 John	הבשורה על-פי יוחנן
 John	יוחנן
 John	John
 Jonah	Jonah
 Jonah	יונה
+Jonah	Yonah
 Josh	יהושע
 Josh	Josh
+Josh	Joshua
+Josh	Yehoshua
 Jude	איגרת יהודה
 Jude	אגרת יהודה
 Jude	יהודה
 Jude	Jude
 Judg	שופטים
 Judg	Judg
+Judg	Judges
+Judg	Shophtim
 Lam	קינות
 Lam	איכה
 Lam	Lam
+Lam	Lamentations
+Lam	Eichah 
 Lev	ספר הלוויים
 Lev	ויקרא
 Lev	Lev
+Lev	Leviticus
+Lev	Wayikra
+Lev	Vayikra
 Luke	הבשורה על-פי לוקאס
 Luke	הבשורה על פי לוקס
 Luke	הבשורה על-פי לוקס
@@ -215,6 +273,8 @@ Luke	Luke
 Luke	לוקס
 Mal	מלאכי
 Mal	Mal
+Mal	Malachi
+Mal	Malakhiy
 Mark	הבשורה על פי מרקוס
 Mark	הבשורה על-פי מרקוס
 Mark	מרקוס
@@ -227,17 +287,26 @@ Matt	Matt
 Matt	מתי
 Mic	מיכה
 Mic	Mic
+Mic	Micah
+Mic	Mikah
 Nah	נחום
 Nah	Nah
+Nah	Nahum
+Nah	Nahoum
 Neh	נחמיה
 Neh	Neh
+Neh	Nehemiah
+Neh	Nechemiyah
 Num	במדבר
 Num	מניין
 Num	ספירה
 Num	Num
+Num	Numbers
+Num	Bamidbar
 Obad	עובדיה
 Obad	עבדיה
 Obad	Obad
+Obad	Obadiah	
 Phil	אגרת פולוס השליח אל-הפיליפיים
 Phil	אגרת פולוס השליח אל-הפיליפי
 Phil	האיגרת אל הפיליפים
@@ -260,6 +329,8 @@ Prov	משלי
 Ps	מזמורים
 Ps	תהילים
 Ps	Ps
+Ps	Psalms
+Ps	Tehilim
 Rev	חזון יוחנן
 Rev	ההתגלות
 Rev	התגלות
@@ -281,6 +352,9 @@ Sir	Sir
 Song	שיר השירים
 Song	שירי שלמה
 Song	Song
+Song	Sos
+Song	Song of Songs
+Song	Shir HaShirim 
 Sus	שושנה
 Sus	Sus
 Titus	אגרת פולוס אל-טיטוס
@@ -293,5 +367,9 @@ Wis	חכמת שלמה
 Wis	Wis
 Zech	זכריה
 Zech	Zech
+Zech	Zechariah
+Zech	Zekharyah
 Zeph	צפניה
 Zeph	Zeph
+Zeph	Zephaniah
+Zeph	Tzefanyah
