@@ -232,7 +232,7 @@ var bcv_regexps = class {
       {
         osis: ["Joel"],
         testament: "o",
-        regexp: /(?:^|(?<=[^\p{L}]))((?:Joel|יואל))(?:(?=[\d\s.:,;\x1e\x1f&\(\)（）\[\]\/"'\*=~\-–—])|$)/giu
+        regexp: /(?:^|(?<=[^\p{L}]))((?:Joel|Yoel|יואל))(?:(?=[\d\s.:,;\x1e\x1f&\(\)（）\[\]\/"'\*=~\-–—])|$)/giu
       },
       {
         osis: ["Amos"],
