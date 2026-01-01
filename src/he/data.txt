@@ -13,45 +13,45 @@ $TO	-
 $VERSE	verse
 $UNICODE_BLOCK	Hebrew	Latin
 
-Gen	בראשית	בריאה
-Exod	שמות	יציאה	יציאת מצרים
-Lev	ויקרא	ספר הלוויים
-Num	במדבר	מניין	ספירה
-Deut	דברים	משנה תורה
-Josh	יהושע
-Judg	שופטים
+Gen	בראשית	בריאה	Genesis	Bereshit
+Exod	שמות	יציאה	יציאת מצרים	Shemot
+Lev	ויקרא	ספר הלוויים	Leviticus	Wayikra	Vayikra
+Num	במדבר	מניין	ספירה	Numbers	Bamidbar
+Deut	דברים	משנה תורה	Deuteronomy	Devarim
+Josh	יהושע	Joshua	Yehoshua
+Judg	שופטים	Judges	Shophtim
 Ruth	רות
-1Sam	שמואל א'	שמואל א
-2Sam	שמואל ב'	שמואל ב
-1Kgs	מלכים א'	מלכים א
-2Kgs	מלכים ב'	מלכים ב
-1Chr	דברי הימים א'	דברי הימים א
-2Chr	דברי הימים ב'	דברי הימים ב
+1Sam	שמואל א'	שמואל א	1 Samuel	1 Shemuel
+2Sam	שמואל ב'	שמואל ב	2 Samuel	2 Shemuel
+1Kgs	מלכים א'	מלכים א	1 Kings	1 Melachim
+2Kgs	מלכים ב'	מלכים ב	2 Kings	2 Melachim
+1Chr	דברי הימים א'	דברי הימים א	1 Chronicles	1 Divrei HaYamim
+2Chr	דברי הימים ב'	דברי הימים ב	2 Chronicles	2 Divrei HaYamim
 Ezra	עזרא
-Neh	נחמיה
-Esth	אסתר, כולל פרקים גנוזים	אסתר
-Job	איוב
-Ps	תהילים	מזמורים
+Neh	נחמיה	Nehemiah	Nechemiyah
+Esth	אסתר, כולל פרקים גנוזים	אסתר	Esther	Ester
+Job	איוב	Eyov
+Ps	תהילים	מזמורים	Psalms	Tehilim
 Prov	משלי	משלים	פתגמים
 Eccl	קהלת	המקהיל	המרצה
-Song	שיר השירים	שירי שלמה
-Isa	ישעיהו	ישעיה	ישעה
-Jer	ירמיהו	ירמיה
-Lam	איכה	קינות
-Ezek	יחזקאל
-Dan	דניאל
-Hos	הושע
-Joel	יואל
+Song	שיר השירים	שירי שלמה	Sos	Song of Songs	Shir HaShirim
+Isa	ישעיהו	ישעיה	ישעה	Isaiah	Yeshayahu
+Jer	ירמיהו	ירמיה	Jeremiah	Yirmiyahu
+Lam	איכה	קינות	Lamentations	Eichah
+Ezek	יחזקאל	Ezekiel	Yechezkel
+Dan	דניאל	Daniel
+Hos	הושע	Hosea	Hoshea
+Joel	יואל	Yoel
 Amos	עמוס
-Obad	עובדיה	עבדיה
-Jonah	יונה
-Mic	מיכה
-Nah	נחום
-Hab	חבקוק
-Zeph	צפניה
-Hag	חגי
-Zech	זכריה
-Mal	מלאכי
+Obad	עובדיה	עבדיה	Obadiah
+Jonah	יונה	Yonah
+Mic	מיכה	Micah	Mikah
+Nah	נחום	Nahum	Nahoum
+Hab	חבקוק	Habakkuk	Habhaqquq
+Zeph	צפניה	Zephaniah	Tzefanyah
+Hag	חגי	Haggai	Haggay
+Zech	זכריה	Zechariah	Zekharyah
+Mal	מלאכי	Malachi	Malakhiy
 Matt	הבשורה על-פי מתי	הבשורה על פי מתי	הבשורה לפי מתי	הבשורה הקדושה על-פי מתי	מתי
 Mark	הבשורה על-פי מרקוס	הבשורה על פי מרקוס	מרקוס
 Luke	הבשורה על-פי לוקס	הבשורה על פי לוקס	הבשורה על-פי לוקאס	לוקס
