@@ -69,9 +69,13 @@ describe("Localized book Gen (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Gen (he)", () => {
+		expect(p.parse("Bereshit 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Genesis 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("בראשית 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("בריאה 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("Gen 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("BERESHIT 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("GENESIS 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("בראשית 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("בריאה 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("GEN 1:1").osis()).toEqual("Gen.1.1");
@@ -85,10 +89,12 @@ describe("Localized book Exod (he)", () => {
 	});
 	it("should handle book: Exod (he)", () => {
 		expect(p.parse("יציאת מצרים 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Shemot 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("יציאה 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("Exod 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("שמות 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("יציאת מצרים 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("SHEMOT 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("יציאה 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("EXOD 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("שמות 1:1").osis()).toEqual("Exod.1.1");
@@ -114,9 +120,15 @@ describe("Localized book Lev (he)", () => {
 	});
 	it("should handle book: Lev (he)", () => {
 		expect(p.parse("ספר הלוויים 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Leviticus 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Vayikra 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Wayikra 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("ויקרא 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("Lev 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("ספר הלוויים 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("LEVITICUS 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("VAYIKRA 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("WAYIKRA 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("ויקרא 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("LEV 1:1").osis()).toEqual("Lev.1.1");
 	});
@@ -128,10 +140,14 @@ describe("Localized book Num (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Num (he)", () => {
+		expect(p.parse("Bamidbar 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("Numbers 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("במדבר 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("מניין 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("ספירה 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("Num 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("BAMIDBAR 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("NUMBERS 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("במדבר 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("מניין 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("ספירה 1:1").osis()).toEqual("Num.1.1");
@@ -169,9 +185,13 @@ describe("Localized book Lam (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Lam (he)", () => {
+		expect(p.parse("Lamentations 1:1").osis()).toEqual("Lam.1.1");
+		expect(p.parse("Eichah 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("קינות 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("איכה 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("Lam 1:1").osis()).toEqual("Lam.1.1");
+		expect(p.parse("LAMENTATIONS 1:1").osis()).toEqual("Lam.1.1");
+		expect(p.parse("EICHAH 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("קינות 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("איכה 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("LAM 1:1").osis()).toEqual("Lam.1.1");
@@ -223,10 +243,14 @@ describe("Localized book Deut (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Deut (he)", () => {
+		expect(p.parse("Deuteronomy 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("משנה תורה 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("Devarim 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("דברים 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("DEUTERONOMY 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("משנה תורה 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("DEVARIM 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("דברים 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("DEUT 1:1").osis()).toEqual("Deut.1.1");
 	});
@@ -238,8 +262,12 @@ describe("Localized book Josh (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Josh (he)", () => {
+		expect(p.parse("Yehoshua 1:1").osis()).toEqual("Josh.1.1");
+		expect(p.parse("Joshua 1:1").osis()).toEqual("Josh.1.1");
 		expect(p.parse("יהושע 1:1").osis()).toEqual("Josh.1.1");
 		expect(p.parse("Josh 1:1").osis()).toEqual("Josh.1.1");
+		expect(p.parse("YEHOSHUA 1:1").osis()).toEqual("Josh.1.1");
+		expect(p.parse("JOSHUA 1:1").osis()).toEqual("Josh.1.1");
 		expect(p.parse("יהושע 1:1").osis()).toEqual("Josh.1.1");
 		expect(p.parse("JOSH 1:1").osis()).toEqual("Josh.1.1");
 	});
@@ -251,8 +279,12 @@ describe("Localized book Judg (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Judg (he)", () => {
+		expect(p.parse("Shophtim 1:1").osis()).toEqual("Judg.1.1");
+		expect(p.parse("Judges 1:1").osis()).toEqual("Judg.1.1");
 		expect(p.parse("שופטים 1:1").osis()).toEqual("Judg.1.1");
 		expect(p.parse("Judg 1:1").osis()).toEqual("Judg.1.1");
+		expect(p.parse("SHOPHTIM 1:1").osis()).toEqual("Judg.1.1");
+		expect(p.parse("JUDGES 1:1").osis()).toEqual("Judg.1.1");
 		expect(p.parse("שופטים 1:1").osis()).toEqual("Judg.1.1");
 		expect(p.parse("JUDG 1:1").osis()).toEqual("Judg.1.1");
 	});
@@ -299,10 +331,14 @@ describe("Localized book Isa (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Isa (he)", () => {
+		expect(p.parse("Yeshayahu 1:1").osis()).toEqual("Isa.1.1");
+		expect(p.parse("Isaiah 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("ישעיהו 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("ישעיה 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("ישעה 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("Isa 1:1").osis()).toEqual("Isa.1.1");
+		expect(p.parse("YESHAYAHU 1:1").osis()).toEqual("Isa.1.1");
+		expect(p.parse("ISAIAH 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("ישעיהו 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("ישעיה 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("ישעה 1:1").osis()).toEqual("Isa.1.1");
@@ -316,10 +352,14 @@ describe("Localized book 2Sam (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: 2Sam (he)", () => {
+		expect(p.parse("2 Shemuel 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2 Samuel 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("שמואל ב' 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("שמואל ב’ 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("שמואל ב 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("2Sam 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2 SHEMUEL 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2 SAMUEL 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("שמואל ב' 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("שמואל ב’ 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("שמואל ב 1:1").osis()).toEqual("2Sam.1.1");
@@ -333,10 +373,14 @@ describe("Localized book 1Sam (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: 1Sam (he)", () => {
+		expect(p.parse("1 Shemuel 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1 Samuel 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("שמואל א' 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("שמואל א’ 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("שמואל א 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("1Sam 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1 SHEMUEL 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1 SAMUEL 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("שמואל א' 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("שמואל א’ 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("שמואל א 1:1").osis()).toEqual("1Sam.1.1");
@@ -350,12 +394,16 @@ describe("Localized book 2Kgs (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: 2Kgs (he)", () => {
+		expect(p.parse("2 Melachim 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("מלכים ב' 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("מלכים ב’ 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2 Kings 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("מלכים ב 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("2Kgs 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2 MELACHIM 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("מלכים ב' 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("מלכים ב’ 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2 KINGS 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("מלכים ב 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("2KGS 1:1").osis()).toEqual("2Kgs.1.1");
 	});
@@ -367,12 +415,16 @@ describe("Localized book 1Kgs (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: 1Kgs (he)", () => {
+		expect(p.parse("1 Melachim 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("מלכים א' 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("מלכים א’ 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1 Kings 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("מלכים א 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("1Kgs 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1 MELACHIM 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("מלכים א' 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("מלכים א’ 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1 KINGS 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("מלכים א 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("1KGS 1:1").osis()).toEqual("1Kgs.1.1");
 	});
@@ -384,12 +436,16 @@ describe("Localized book 2Chr (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: 2Chr (he)", () => {
+		expect(p.parse("2 Divrei HaYamim 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("דברי הימים ב' 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("דברי הימים ב’ 1:1").osis()).toEqual("2Chr.1.1");
+		expect(p.parse("2 Chronicles 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("דברי הימים ב 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("2Chr 1:1").osis()).toEqual("2Chr.1.1");
+		expect(p.parse("2 DIVREI HAYAMIM 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("דברי הימים ב' 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("דברי הימים ב’ 1:1").osis()).toEqual("2Chr.1.1");
+		expect(p.parse("2 CHRONICLES 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("דברי הימים ב 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("2CHR 1:1").osis()).toEqual("2Chr.1.1");
 	});
@@ -401,12 +457,16 @@ describe("Localized book 1Chr (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: 1Chr (he)", () => {
+		expect(p.parse("1 Divrei HaYamim 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("דברי הימים א' 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("דברי הימים א’ 1:1").osis()).toEqual("1Chr.1.1");
+		expect(p.parse("1 Chronicles 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("דברי הימים א 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("1Chr 1:1").osis()).toEqual("1Chr.1.1");
+		expect(p.parse("1 DIVREI HAYAMIM 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("דברי הימים א' 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("דברי הימים א’ 1:1").osis()).toEqual("1Chr.1.1");
+		expect(p.parse("1 CHRONICLES 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("דברי הימים א 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("1CHR 1:1").osis()).toEqual("1Chr.1.1");
 	});
@@ -431,8 +491,12 @@ describe("Localized book Neh (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Neh (he)", () => {
+		expect(p.parse("Nechemiyah 1:1").osis()).toEqual("Neh.1.1");
+		expect(p.parse("Nehemiah 1:1").osis()).toEqual("Neh.1.1");
 		expect(p.parse("נחמיה 1:1").osis()).toEqual("Neh.1.1");
 		expect(p.parse("Neh 1:1").osis()).toEqual("Neh.1.1");
+		expect(p.parse("NECHEMIYAH 1:1").osis()).toEqual("Neh.1.1");
+		expect(p.parse("NEHEMIAH 1:1").osis()).toEqual("Neh.1.1");
 		expect(p.parse("נחמיה 1:1").osis()).toEqual("Neh.1.1");
 		expect(p.parse("NEH 1:1").osis()).toEqual("Neh.1.1");
 	});
@@ -456,9 +520,13 @@ describe("Localized book Esth (he)", () => {
 	});
 	it("should handle book: Esth (he)", () => {
 		expect(p.parse("אסתר, כולל פרקים גנוזים 1:1").osis()).toEqual("Esth.1.1");
+		expect(p.parse("Esther 1:1").osis()).toEqual("Esth.1.1");
+		expect(p.parse("Ester 1:1").osis()).toEqual("Esth.1.1");
 		expect(p.parse("Esth 1:1").osis()).toEqual("Esth.1.1");
 		expect(p.parse("אסתר 1:1").osis()).toEqual("Esth.1.1");
 		expect(p.parse("אסתר, כולל פרקים גנוזים 1:1").osis()).toEqual("Esth.1.1");
+		expect(p.parse("ESTHER 1:1").osis()).toEqual("Esth.1.1");
+		expect(p.parse("ESTER 1:1").osis()).toEqual("Esth.1.1");
 		expect(p.parse("ESTH 1:1").osis()).toEqual("Esth.1.1");
 		expect(p.parse("אסתר 1:1").osis()).toEqual("Esth.1.1");
 	});
@@ -470,8 +538,10 @@ describe("Localized book Job (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Job (he)", () => {
+		expect(p.parse("Eyov 1:1").osis()).toEqual("Job.1.1");
 		expect(p.parse("איוב 1:1").osis()).toEqual("Job.1.1");
 		expect(p.parse("Job 1:1").osis()).toEqual("Job.1.1");
+		expect(p.parse("EYOV 1:1").osis()).toEqual("Job.1.1");
 		expect(p.parse("איוב 1:1").osis()).toEqual("Job.1.1");
 		expect(p.parse("JOB 1:1").osis()).toEqual("Job.1.1");
 	});
@@ -483,10 +553,14 @@ describe("Localized book Ps (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Ps (he)", () => {
+		expect(p.parse("Tehilim 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("מזמורים 1:1").osis()).toEqual("Ps.1.1");
+		expect(p.parse("Psalms 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("תהילים 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1");
+		expect(p.parse("TEHILIM 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("מזמורים 1:1").osis()).toEqual("Ps.1.1");
+		expect(p.parse("PSALMS 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("תהילים 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("PS 1:1").osis()).toEqual("Ps.1.1");
 	});
@@ -555,12 +629,18 @@ describe("Localized book Song (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Song (he)", () => {
+		expect(p.parse("Shir HaShirim 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("Song of Songs 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("שיר השירים 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("שירי שלמה 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("Song 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("Sos 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("SHIR HASHIRIM 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("SONG OF SONGS 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("שיר השירים 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("שירי שלמה 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("SONG 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("SOS 1:1").osis()).toEqual("Song.1.1");
 	});
 });
 describe("Localized book Jer (he)", () => {
@@ -570,9 +650,13 @@ describe("Localized book Jer (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Jer (he)", () => {
+		expect(p.parse("Yirmiyahu 1:1").osis()).toEqual("Jer.1.1");
+		expect(p.parse("Jeremiah 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("ירמיהו 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("ירמיה 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("Jer 1:1").osis()).toEqual("Jer.1.1");
+		expect(p.parse("YIRMIYAHU 1:1").osis()).toEqual("Jer.1.1");
+		expect(p.parse("JEREMIAH 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("ירמיהו 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("ירמיה 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("JER 1:1").osis()).toEqual("Jer.1.1");
@@ -585,8 +669,12 @@ describe("Localized book Ezek (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Ezek (he)", () => {
+		expect(p.parse("Yechezkel 1:1").osis()).toEqual("Ezek.1.1");
+		expect(p.parse("Ezekiel 1:1").osis()).toEqual("Ezek.1.1");
 		expect(p.parse("יחזקאל 1:1").osis()).toEqual("Ezek.1.1");
 		expect(p.parse("Ezek 1:1").osis()).toEqual("Ezek.1.1");
+		expect(p.parse("YECHEZKEL 1:1").osis()).toEqual("Ezek.1.1");
+		expect(p.parse("EZEKIEL 1:1").osis()).toEqual("Ezek.1.1");
 		expect(p.parse("יחזקאל 1:1").osis()).toEqual("Ezek.1.1");
 		expect(p.parse("EZEK 1:1").osis()).toEqual("Ezek.1.1");
 	});
@@ -598,8 +686,10 @@ describe("Localized book Dan (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Dan (he)", () => {
+		expect(p.parse("Daniel 1:1").osis()).toEqual("Dan.1.1");
 		expect(p.parse("דניאל 1:1").osis()).toEqual("Dan.1.1");
 		expect(p.parse("Dan 1:1").osis()).toEqual("Dan.1.1");
+		expect(p.parse("DANIEL 1:1").osis()).toEqual("Dan.1.1");
 		expect(p.parse("דניאל 1:1").osis()).toEqual("Dan.1.1");
 		expect(p.parse("DAN 1:1").osis()).toEqual("Dan.1.1");
 	});
@@ -611,8 +701,12 @@ describe("Localized book Hos (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Hos (he)", () => {
+		expect(p.parse("Hoshea 1:1").osis()).toEqual("Hos.1.1");
+		expect(p.parse("Hosea 1:1").osis()).toEqual("Hos.1.1");
 		expect(p.parse("הושע 1:1").osis()).toEqual("Hos.1.1");
 		expect(p.parse("Hos 1:1").osis()).toEqual("Hos.1.1");
+		expect(p.parse("HOSHEA 1:1").osis()).toEqual("Hos.1.1");
+		expect(p.parse("HOSEA 1:1").osis()).toEqual("Hos.1.1");
 		expect(p.parse("הושע 1:1").osis()).toEqual("Hos.1.1");
 		expect(p.parse("HOS 1:1").osis()).toEqual("Hos.1.1");
 	});
@@ -625,8 +719,10 @@ describe("Localized book Joel (he)", () => {
 	});
 	it("should handle book: Joel (he)", () => {
 		expect(p.parse("Joel 1:1").osis()).toEqual("Joel.1.1");
+		expect(p.parse("Yoel 1:1").osis()).toEqual("Joel.1.1");
 		expect(p.parse("יואל 1:1").osis()).toEqual("Joel.1.1");
 		expect(p.parse("JOEL 1:1").osis()).toEqual("Joel.1.1");
+		expect(p.parse("YOEL 1:1").osis()).toEqual("Joel.1.1");
 		expect(p.parse("יואל 1:1").osis()).toEqual("Joel.1.1");
 	});
 });
@@ -650,9 +746,11 @@ describe("Localized book Obad (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Obad (he)", () => {
+		expect(p.parse("Obadiah 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("עובדיה 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("עבדיה 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("Obad 1:1").osis()).toEqual("Obad.1.1");
+		expect(p.parse("OBADIAH 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("עובדיה 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("עבדיה 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("OBAD 1:1").osis()).toEqual("Obad.1.1");
@@ -666,8 +764,10 @@ describe("Localized book Jonah (he)", () => {
 	});
 	it("should handle book: Jonah (he)", () => {
 		expect(p.parse("Jonah 1:1").osis()).toEqual("Jonah.1.1");
+		expect(p.parse("Yonah 1:1").osis()).toEqual("Jonah.1.1");
 		expect(p.parse("יונה 1:1").osis()).toEqual("Jonah.1.1");
 		expect(p.parse("JONAH 1:1").osis()).toEqual("Jonah.1.1");
+		expect(p.parse("YONAH 1:1").osis()).toEqual("Jonah.1.1");
 		expect(p.parse("יונה 1:1").osis()).toEqual("Jonah.1.1");
 	});
 });
@@ -678,8 +778,12 @@ describe("Localized book Mic (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Mic (he)", () => {
+		expect(p.parse("Micah 1:1").osis()).toEqual("Mic.1.1");
+		expect(p.parse("Mikah 1:1").osis()).toEqual("Mic.1.1");
 		expect(p.parse("מיכה 1:1").osis()).toEqual("Mic.1.1");
 		expect(p.parse("Mic 1:1").osis()).toEqual("Mic.1.1");
+		expect(p.parse("MICAH 1:1").osis()).toEqual("Mic.1.1");
+		expect(p.parse("MIKAH 1:1").osis()).toEqual("Mic.1.1");
 		expect(p.parse("מיכה 1:1").osis()).toEqual("Mic.1.1");
 		expect(p.parse("MIC 1:1").osis()).toEqual("Mic.1.1");
 	});
@@ -691,8 +795,12 @@ describe("Localized book Nah (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Nah (he)", () => {
+		expect(p.parse("Nahoum 1:1").osis()).toEqual("Nah.1.1");
+		expect(p.parse("Nahum 1:1").osis()).toEqual("Nah.1.1");
 		expect(p.parse("נחום 1:1").osis()).toEqual("Nah.1.1");
 		expect(p.parse("Nah 1:1").osis()).toEqual("Nah.1.1");
+		expect(p.parse("NAHOUM 1:1").osis()).toEqual("Nah.1.1");
+		expect(p.parse("NAHUM 1:1").osis()).toEqual("Nah.1.1");
 		expect(p.parse("נחום 1:1").osis()).toEqual("Nah.1.1");
 		expect(p.parse("NAH 1:1").osis()).toEqual("Nah.1.1");
 	});
@@ -704,8 +812,12 @@ describe("Localized book Hab (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Hab (he)", () => {
+		expect(p.parse("Habhaqquq 1:1").osis()).toEqual("Hab.1.1");
+		expect(p.parse("Habakkuk 1:1").osis()).toEqual("Hab.1.1");
 		expect(p.parse("חבקוק 1:1").osis()).toEqual("Hab.1.1");
 		expect(p.parse("Hab 1:1").osis()).toEqual("Hab.1.1");
+		expect(p.parse("HABHAQQUQ 1:1").osis()).toEqual("Hab.1.1");
+		expect(p.parse("HABAKKUK 1:1").osis()).toEqual("Hab.1.1");
 		expect(p.parse("חבקוק 1:1").osis()).toEqual("Hab.1.1");
 		expect(p.parse("HAB 1:1").osis()).toEqual("Hab.1.1");
 	});
@@ -717,8 +829,12 @@ describe("Localized book Zeph (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Zeph (he)", () => {
+		expect(p.parse("Tzefanyah 1:1").osis()).toEqual("Zeph.1.1");
+		expect(p.parse("Zephaniah 1:1").osis()).toEqual("Zeph.1.1");
 		expect(p.parse("צפניה 1:1").osis()).toEqual("Zeph.1.1");
 		expect(p.parse("Zeph 1:1").osis()).toEqual("Zeph.1.1");
+		expect(p.parse("TZEFANYAH 1:1").osis()).toEqual("Zeph.1.1");
+		expect(p.parse("ZEPHANIAH 1:1").osis()).toEqual("Zeph.1.1");
 		expect(p.parse("צפניה 1:1").osis()).toEqual("Zeph.1.1");
 		expect(p.parse("ZEPH 1:1").osis()).toEqual("Zeph.1.1");
 	});
@@ -730,8 +846,12 @@ describe("Localized book Hag (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Hag (he)", () => {
+		expect(p.parse("Haggai 1:1").osis()).toEqual("Hag.1.1");
+		expect(p.parse("Haggay 1:1").osis()).toEqual("Hag.1.1");
 		expect(p.parse("Hag 1:1").osis()).toEqual("Hag.1.1");
 		expect(p.parse("חגי 1:1").osis()).toEqual("Hag.1.1");
+		expect(p.parse("HAGGAI 1:1").osis()).toEqual("Hag.1.1");
+		expect(p.parse("HAGGAY 1:1").osis()).toEqual("Hag.1.1");
 		expect(p.parse("HAG 1:1").osis()).toEqual("Hag.1.1");
 		expect(p.parse("חגי 1:1").osis()).toEqual("Hag.1.1");
 	});
@@ -743,8 +863,12 @@ describe("Localized book Zech (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Zech (he)", () => {
+		expect(p.parse("Zechariah 1:1").osis()).toEqual("Zech.1.1");
+		expect(p.parse("Zekharyah 1:1").osis()).toEqual("Zech.1.1");
 		expect(p.parse("זכריה 1:1").osis()).toEqual("Zech.1.1");
 		expect(p.parse("Zech 1:1").osis()).toEqual("Zech.1.1");
+		expect(p.parse("ZECHARIAH 1:1").osis()).toEqual("Zech.1.1");
+		expect(p.parse("ZEKHARYAH 1:1").osis()).toEqual("Zech.1.1");
 		expect(p.parse("זכריה 1:1").osis()).toEqual("Zech.1.1");
 		expect(p.parse("ZECH 1:1").osis()).toEqual("Zech.1.1");
 	});
@@ -756,8 +880,12 @@ describe("Localized book Mal (he)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Mal (he)", () => {
+		expect(p.parse("Malakhiy 1:1").osis()).toEqual("Mal.1.1");
+		expect(p.parse("Malachi 1:1").osis()).toEqual("Mal.1.1");
 		expect(p.parse("מלאכי 1:1").osis()).toEqual("Mal.1.1");
 		expect(p.parse("Mal 1:1").osis()).toEqual("Mal.1.1");
+		expect(p.parse("MALAKHIY 1:1").osis()).toEqual("Mal.1.1");
+		expect(p.parse("MALACHI 1:1").osis()).toEqual("Mal.1.1");
 		expect(p.parse("מלאכי 1:1").osis()).toEqual("Mal.1.1");
 		expect(p.parse("MAL 1:1").osis()).toEqual("Mal.1.1");
 	});
